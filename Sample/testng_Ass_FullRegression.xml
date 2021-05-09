@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.comcast.crm.productTest.TC_11_SearchProduct_byQtyUnit_Test"/>
+      <class name="com.comcast.crm.productTest.TC_12_SearchProduct_byQtyinStock_Test"/>
+      <class name="com.comcast.crm.productTest.TC_13_SearchProduct_by_UnitPrice"/>
+      <class name="com.comcast.crm.productTest.TC_14_SearchProduct_by_AlphabetSearch"/>
+      <class name="com.comcast.crm.productTest.TC_15_DeletetheProduct"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
